@@ -1,0 +1,42 @@
+/* @font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?z9byv6');
+    src: url('fonts/icomoon.eot?z9byv6#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?z9byv6') format('truetype'),
+        url('fonts/icomoon.woff?z9byv6') format('woff'),
+        url('fonts/icomoon.svg?z9byv6#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+} */
+
+.home {
+    font-family: 'icomoon';
+    color: pink;
+    font-size: 50px;
+}
+
+.p {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+}
+
+/* .b {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+} */
+
+.bl {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.p:hover .bl {
+    display: block;
+}
